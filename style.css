@@ -1,0 +1,122 @@
+:root{
+    --dark-accent: rgb(25, 25, 83);
+    --light-accent: rgb(175, 156, 175);
+
+
+}
+
+.title{
+    background-color: var(--dark-accent);
+    color: var(--light-accent);
+    display: flex;
+    justify-content: space-between;
+}
+
+#name{
+    background-color: var(--light-accent);
+    color: var(--dark-accent);
+    padding: 7px;
+    margin: 10px;
+    padding-left: 40px;
+    margin-left: 0px;
+    align-items: center;
+    display: flex;
+}
+
+h1{
+    font-size: x-large;
+}
+
+#top-links{
+    display: flex;
+    justify-items: end;
+    align-items: center;
+}
+
+.links{
+    color: var(--light-accent);
+    margin: 10px;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: var(--light-accent) solid 2px;
+}
+
+#banner-div{
+    height: 395px;
+}
+
+#big-picture{
+    width: 100%;
+    position: absolute;
+    height: 395px;
+}
+
+#witty{
+    position: absolute;
+    right: 0px;
+    z-index: 100;
+    background-color: var(--light-accent);
+    color: var(--dark-accent);
+    padding: 7px;
+    margin: 10px;
+    font-size: larger;
+    top: 375px;
+    font-weight: bolder;
+    margin-right: 70px
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    color: var(--dark-accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 40px;
+    
+}
+
+.side-thingy{
+    justify-self: flex-start;
+    border-right: solid;
+    border-color: var(--dark-accent);
+    border-width: 3px;
+    width: 20%;
+    height: 100%;
+}
+
+.section-content{
+    margin: 40px;
+    display: flex;
+}
+
+#work{
+    flex-wrap: wrap;
+}
+
+.card{
+    border-color: var(--light-accent);
+    border-style: solid;
+    border-width: 5px;
+}
+
+.card-name{
+    background-color: var(--light-accent);
+    color: var(--dark-accent);
+    left: 0px;
+    bottom: 40px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+#contact-list{
+    --light-accent: rgb(25, 25, 83);
+    display: flex;
+}
