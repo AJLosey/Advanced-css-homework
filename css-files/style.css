@@ -1,18 +1,18 @@
-:root{
+:root {
     --dark-accent: rgb(25, 25, 83);
     --light-accent: rgb(175, 156, 175);
 
 
 }
 
-.title{
+.title {
     background-color: var(--dark-accent);
     color: var(--light-accent);
     display: flex;
     justify-content: space-between;
 }
 
-#name{
+#name {
     background-color: var(--light-accent);
     color: var(--dark-accent);
     padding: 7px;
@@ -23,17 +23,17 @@
     display: flex;
 }
 
-h1{
+h1 {
     font-size: x-large;
 }
 
-#top-links{
+#top-links {
     display: flex;
     justify-items: end;
     align-items: center;
 }
 
-.links{
+.links {
     color: var(--light-accent);
     margin: 10px;
     text-decoration: none;
@@ -41,17 +41,17 @@ h1{
     border-bottom: var(--light-accent) solid 2px;
 }
 
-#banner-div{
+#banner-div {
     height: 395px;
 }
 
-#big-picture{
+#big-picture {
     width: 100%;
     position: absolute;
     height: 395px;
 }
 
-#witty{
+#witty {
     position: absolute;
     right: 0px;
     z-index: 100;
@@ -63,10 +63,9 @@ h1{
     top: 375px;
     font-weight: bolder;
     margin-right: 70px
-
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -80,10 +79,11 @@ main{
     align-items: center;
     width: 90%;
     margin-top: 40px;
-    
+    flex-wrap: wrap;
+
 }
 
-.side-thingy{
+.side-thingy {
     justify-self: flex-start;
     border-right: solid;
     border-color: var(--dark-accent);
@@ -92,31 +92,44 @@ main{
     height: 100%;
 }
 
-.section-content{
+.section>h2 {
+    border-right: 5px solid var(--dark-accent);
+    line-height: 10;
+    padding-right: 100px;
+    margin-left: 20px;
+}
+
+.section-content {
     margin: 40px;
     display: flex;
+
 }
 
-#work{
-    flex-wrap: wrap;
+#work {
+    /* flex-wrap: wrap; */
 }
 
-.card{
+.card {
     border-color: var(--light-accent);
     border-style: solid;
     border-width: 5px;
+    background-image: url("./Ammonite.jpg");
+    position: relative;
+
 }
 
-.card-name{
+.card-name {
     background-color: var(--light-accent);
     color: var(--dark-accent);
     left: 0px;
     bottom: 40px;
     padding: 10px;
     font-weight: bolder;
+    position: absolute;
+    bottom: 20px;
 }
 
-#contact-list{
+#contact-list {
     --light-accent: rgb(25, 25, 83);
     display: flex;
 }
