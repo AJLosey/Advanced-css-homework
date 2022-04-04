@@ -85,16 +85,28 @@ main {
 
 .side-thingy {
     justify-self: flex-start;
-    border-right: solid;
-    border-color: var(--dark-accent);
-    border-width: 3px;
     width: 20%;
     height: 100%;
 }
 
-.section>h2 {
+.section-title1 {
     border-right: 5px solid var(--dark-accent);
-    line-height: 10;
+    line-height: 10vh;
+    padding-right: -100px;
+}
+
+/* gods above and below deliver me from these infuriating border lines that refuse to move!!! */
+
+.section-title2 {
+    border-right: 5px solid var(--dark-accent);
+    line-height: 70vh;
+    padding-right: 100px;
+    margin-left: 200px;
+}
+
+.section-title3 {
+    border-right: 5px solid var(--dark-accent);
+    line-height: 2vh;
     padding-right: 100px;
     margin-left: 20px;
 }
