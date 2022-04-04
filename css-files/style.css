@@ -105,17 +105,19 @@ main {
 
 }
 
-#work {
-    /* flex-wrap: wrap; */
-}
-
 .card {
     border-color: var(--light-accent);
     border-style: solid;
     border-width: 5px;
-    background-image: url("./Ammonite.jpg");
+    background-image: url("../images/Ammonite.jpg");
     position: relative;
 
+}
+
+
+
+.bigger {
+    height: 400px;
 }
 
 .card-name {
@@ -132,4 +134,11 @@ main {
 #contact-list {
     --light-accent: rgb(25, 25, 83);
     display: flex;
+}
+
+#portrait {
+    width: 10vw;
+    border-color: var(--light-accent);
+    border-style: solid;
+    border-width: 5px;
 }
